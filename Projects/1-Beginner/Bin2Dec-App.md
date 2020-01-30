@@ -1,41 +1,33 @@
-# Bin2Dec
+# Bin2Dec（二进制转十进制）
 
 **Tier:** 1-Beginner
 
-Binary is the number system all digital computers are based on.
-Therefore it's important for developers to understand binary, or base 2,
-mathematics. The purpose of Bin2Dec is to provide practice and
-understanding of how binary calculations.
+二进制是一种数字系统，所有的数字计算机都基于二进制。
+因此对于开发者来说，明白二进制很重要。这个应用的目的是为了理解二进制如何计算的提供练习。
 
-Bin2Dec allows the user to enter strings of up to 8 binary digits, 0's
-and 1's, in any sequence and then displays its decimal equivalent.
+Bin2Dec允许用户输入八位二进制数字（0或1），经过一些列的变化转换成相等的十进制。
 
-This challenge requires that the developer implementing it follow these
-constraints:
+该挑战需要开发者根据以下约束来实现：
+- 数组不能包含用户输入的有二进制的数字
+- 必须使用单个数学函数库计算。（即不能使用`toString`方法来做)
 
--   Arrays may not be used to contain the binary digits entered by the user
--   Determining the decimal equivalent of a particular binary digit in the
-    sequence must be calculated using a single mathematical function, for
-    example the natural logarithm. It's up to you to figure out which function
-    to use.
+## 用户故事
 
-## User Stories
+-   [ ] 用户能够在一个`input`输入框里输入8个二进制数字。
+-   [ ] 必须在用户输入非0或非1的情况下提醒用户输入不合法。
+-   [ ] 用户可以在输出栏看到通过输入的二进制数字转换好的十进制数字。
 
--   [ ] User can enter up to 8 binary digits in one input field
--   [ ] User must be notified if anything other than a 0 or 1 was entered
--   [ ] User views the results in a single output field containing the decimal (base 10) equivalent of the binary number that was entered
+## 额外功能
 
-## Bonus features
+-   [ ] 用户能输入任意长度的二进制数字。
 
--   [ ] User can enter a variable number of binary digits
-
-## Useful links and resources
+## 有用的链接和资源
 
 [Binary number system](https://en.wikipedia.org/wiki/Binary_number)
 
-## Example projects
+## 示例
 
-Try not to view this until you've developed your own solution:
+最好不要在没开发完就打开以下链接
 
--   [Binary to decimal conversion program for beginners](https://www.youtube.com/watch?v=YMIALQE26KQ)
--   [Binary to Decimal converter using React](https://github.com/email2vimalraj/Bin2Dec)
+-   [Binary to decimal conversion program for beginners（需翻墙）](https://www.youtube.com/watch?v=YMIALQE26KQ)
+-   [二进制转十进制React](https://github.com/email2vimalraj/Bin2Dec)
