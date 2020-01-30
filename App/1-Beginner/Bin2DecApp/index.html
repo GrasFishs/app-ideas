@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Bin2DecApp</title>
+</head>
+
+<style>
+  .box {
+    padding: 20px;
+    background-color: #eee;
+    border-radius: 10px;
+  }
+
+  .row {
+    margin: 10px 0;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+  }
+
+  #error {
+    color: #ee6666;
+  }
+
+  label {
+    margin-right: 10px;
+    padding: 5px 0;
+  }
+
+  input {
+    display: inline-block;
+    flex: 1;
+    height: 30px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    padding: 5px 10px;
+    font-size: 1.2rem;
+    color: gray;
+  }
+
+  input::placeholder {
+    color: #ddd;
+  }
+</style>
+
+<body>
+  <div class="box">
+    <div class="row" id="error" style="display: none;">只能出现0或1</div>
+    <div class="row">
+      <label for="input">输入二进制</label>
+      <input name="input" id="input" placeholder="请输入二进制">
+    </div>
+    <div class="row">
+      <label for="output">输出十进制</label>
+      <input name="output" id="output" readonly placeholder="等待输出...">
+    </div>
+  </div>
+</body>
+<script>
+  const $input = document.querySelector('#input');
+  const $output = document.querySelector('#output');
+  const $error = document.querySelector('#error');
+
+  const BIN = ['0', '1']
+
+  function checkBin(value, success, error) {
+    if (value.split('').some(v => !BIN.includes(v))) {
+      $error.style.cssText = 'display:block';
+      error()
+    } else {
+      $error.style.cssText = 'display:none';
+      success()
+    }
+  }
+
+  function bin2Dec(value) {
+    const strValue = String(value);
+    const len = strValue.length;
+    let result = 0;
+    for (let i = 0; i < len; i++) {
+      result += Number(strValue[i]) * Math.pow(2, len - 1 - i);
+    }
+    return result;
+  }
+
+  $input.addEventListener('input', e => {
+    const bin = e.target.value;
+    checkBin(
+      bin, () => {
+        $output.value = bin2Dec(bin)
+      }, () => {
+        $output.value = '';
+      })
+  })
+</script>
+
+</html>
