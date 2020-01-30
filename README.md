@@ -1,39 +1,37 @@
-## :ledger: App Ideas Collection
+## 📒(App点子集合)App Ideas Collection
 
 ![App Ideas Image](./app-ideas.png)
 
-[![contributions welcome](https://img.shields.io/badge/contributions-welcome-brightgreen.svg?style=flat)](./CONTRIBUTING.md)
+你是否曾经想过想开发点什么东西，但是又没有好的创意点子？
+有时候开发者也会遇到像作者遇到“作家阻塞”问题一样。
+下面的清单就是为了一劳永逸地解决这个问题的！👍
 
-Have you ever wanted to build something but you had no idea what to do? Just as
-authors sometimes have "writers block" it's also true for developers. This list is intended to solve this issue once and for all! 👍
+这些应用能够：
 
-These applications are:
+- 非常好地改善你的编码技巧！💪
+- 非常好地体验到新技术 🆕
+- 非常好地投资你自己并打动下一个雇主或客户 📁;
+- 非常好地在教程（文章或视频）中用作例子 📃;
+- 非常好完成，并且易于扩展新功能 👌;
 
-- great for improving your coding skills :muscle:;
-- great for experimenting with new technologies 🆕;
-- great for adding to your portfolio to impress your next employer/client :file_folder:;
-- great for using as examples in tutorials (articles or videos) :page_with_curl:;
-- easy to complete and also easily extendable with new features :ok_hand:;
+这不仅仅是一个简单的项目列表，而是每个项目都描述了足够详细内容的集合，以便您能够从头开发！
 
-This is not just a simple list of projects, but a collection that describes each project in enough detail so that you can develop it from the ground up!
+每个项目都有如下 **功能** ：
 
-Each project has the following **features**:
-
-1. A clear and descriptive objective;
-2. A list of _User Stories_ which should be implemented (these stories act more as a guideline than a forced list of _To-Do's_. Feel free to add your own stories if you want);
-3. A list of bonus features that not only improve the base project, but also your skills at the same time (these are optional and should be attempted only after you have completed the required user stories)
-4. All the resources and links to help you find what you need to complete the project
+1. 清晰的描述性目标
+2. 应当实现的 _用户故事_ 列表(这些故事起指导作用，而不是被强制执行的 _待办事项列表_ 。请根据需要随意添加自己的故事)
+3. 一系列奖励功能，这些功能不仅可以改善基础项目，而且还可以同时提高您的技能（这些是可选功能，只有在完成所需的用户案例后才能尝试使用）
+4. 所有资源和链接可帮助您找到完成项目所需的内容
 
 ## Projects
 
-Projects are divided into three tiers based on the knowledge and experience
-required to complete them.
+根据完成项目所需的知识和经验，将项目分为三个层次。
 
-| Tier | Developer Profile                                                                                                                                                |
-| :--: | ---------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-|  1   | Developers in the early stages of their learning journey. Those who are typically focused on creating user-facing applications.                                  |
-|  2   | Developers at an intermediate stage of learning and experience. They are comfortable in UI/UX, using development tools, and building apps that use API services. |
-|  3   | Developers who have all of the above, and are learning more advanced techniques like implementing backend applications and database services.                    |
+| 层次  | 开发描述                                                    |
+| :--: | -------------------------------------------------------   |
+|  1   | 开发人员处于学习旅程的早期阶段。那些通常专注于创建面向用户的应用程序的人。                    |
+|  2   | 开发人员处于学习和经验的中间阶段。他们对使用开发工具以及使用API​​服务构建应用程序的UI / UX感到很满意。 |
+|  3   | 具备以上所有条件并且正在学习更高级的技术（如实现后端应用程序和数据库服务）的开发人员。|
 
 🌟 - New Project
 
@@ -135,35 +133,3 @@ required to complete them.
 | [Slack Archiver](./Projects/3-Advanced/Slack-Archiver.md)                     | Archive Slack Messages                                              | 3-Advanced |
 | [Spell-It App](./Projects/3-Advanced/SpellIt-App.md)                          | A twist on the classic Speak N Spell game                           | 3-Advanced |
 | [Survey App](./Projects/3-Advanced/Survey-App.md)                             | Define, conduct, and view a survey                                  | 3-Advanced |
-
-## Plans for the future
-
-We are planning to add more and more projects to this repository. For this, we need your help! Find out how to contribute below. 👇
-
-We are also planning to create a website where you can easily browse through all of the projects.
-
-## Contribution
-
-Any contributions are highly appreciated. :pray: You can contribute in two ways:
-
-1. create an issue and tell us your idea :bulb:. Make sure that you use the **new idea** label in this case;
-2. fork the project and submit a PR with your new idea. Before doing that, please make sure that you read and follow the [Contribution Guide](./CONTRIBUTING.md);
-
-### Examples
-
-You can also add your own examples to the projects after you have completed them. I highly encourage you to do this as it will show others what amazing things were built! 👍
-
-## Spread the word!
-
-If the information from this repo was useful to you in any way, make sure you give it a star 🌟, this way others can find it and benefit too! Together we can grow and make our community better! :smiley:
-
-Do you have any suggestions on how we could improve this project overall? Let us know! We'd love to hear your feedback!
-
-### Main Contributors 🙂🙂
-
-- **Florin Pop**: [Twitter](https://twitter.com/florinpop1705) - [website](https://florin-pop.com).
-- **Jim Medlock**: [Twitter](https://twitter.com/jd_medlock) - [articles](https://medium.com/@jdmedlock)
-
-## Weekly Coding Challenge 🚀
-
-As a bonus, there's a Weekly Coding Challenge where you can learn more by practicing your skills on real-world projects. Read [The Complete Guide](https://www.florin-pop.com/blog/2019/03/weekly-coding-challenge/) to find out how you can participate! 😄
